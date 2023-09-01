@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="CheckboxesTestSuite" verbose="1" >
+  <test name="CheckboxesTests-Android" >
+	<parameter name="deviceName" value="Pixel 5"></parameter>
+    <classes>
+       <class name="com.herokuapp.theinternet.checkboxespagetests.CheckboxesTests" />
+    </classes>
+  </test>
+  
+  <test name="CheckboxesTests-ios" >
+	<parameter name="deviceName" value="iPhone XR"></parameter>
+    <classes>
+       <class name="com.herokuapp.theinternet.checkboxespagetests.CheckboxesTests" />
+    </classes>
+  </test>
+</suite>

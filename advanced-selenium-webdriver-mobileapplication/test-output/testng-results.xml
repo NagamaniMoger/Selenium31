@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-01T20:51:01 IST" name="CheckboxesTestSuite" finished-at="2023-09-01T20:51:24 IST" duration-ms="22685">
+    <groups>
+    </groups>
+    <test started-at="2023-09-01T20:51:01 IST" name="CheckboxesTests-Android" finished-at="2023-09-01T20:51:15 IST" duration-ms="14393">
+      <class name="com.herokuapp.theinternet.checkboxespagetests.CheckboxesTests">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.checkboxespagetests.CheckboxesTests@14cd1699]" started-at="2023-09-01T20:51:02 IST" name="setUp" finished-at="2023-09-01T20:51:09 IST" duration-ms="6982" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.herokuapp.theinternet.checkboxespagetests.CheckboxesTests.selectingTwoCheckboxesTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pixel 5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@512575e9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="selectingTwoCheckboxesTest()[pri:0, instance:com.herokuapp.theinternet.checkboxespagetests.CheckboxesTests@14cd1699]" started-at="2023-09-01T20:51:09 IST" name="selectingTwoCheckboxesTest" finished-at="2023-09-01T20:51:15 IST" duration-ms="6142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectingTwoCheckboxesTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.checkboxespagetests.CheckboxesTests@14cd1699]" started-at="2023-09-01T20:51:15 IST" name="tearDown" finished-at="2023-09-01T20:51:15 IST" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.theinternet.checkboxespagetests.CheckboxesTests -->
+    </test> <!-- CheckboxesTests-Android -->
+    <test started-at="2023-09-01T20:51:16 IST" name="CheckboxesTests-ios" finished-at="2023-09-01T20:51:24 IST" duration-ms="8222">
+      <class name="com.herokuapp.theinternet.checkboxespagetests.CheckboxesTests">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.checkboxespagetests.CheckboxesTests@4b2bac3f]" started-at="2023-09-01T20:51:16 IST" name="setUp" finished-at="2023-09-01T20:51:17 IST" duration-ms="1783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.herokuapp.theinternet.checkboxespagetests.CheckboxesTests.selectingTwoCheckboxesTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[iPhone XR]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@6f1a16fe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="selectingTwoCheckboxesTest()[pri:0, instance:com.herokuapp.theinternet.checkboxespagetests.CheckboxesTests@4b2bac3f]" started-at="2023-09-01T20:51:17 IST" name="selectingTwoCheckboxesTest" finished-at="2023-09-01T20:51:23 IST" duration-ms="6147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectingTwoCheckboxesTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.checkboxespagetests.CheckboxesTests@4b2bac3f]" started-at="2023-09-01T20:51:23 IST" name="tearDown" finished-at="2023-09-01T20:51:24 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.theinternet.checkboxespagetests.CheckboxesTests -->
+    </test> <!-- CheckboxesTests-ios -->
+  </suite> <!-- CheckboxesTestSuite -->
+</testng-results>
